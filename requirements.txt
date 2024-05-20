@@ -1,0 +1,10 @@
+# kubeflow packages
+kfp
+kfp-server-api
+
+# jupyterlab extensions
+jupyterlab-git
+
+# Tensor libraries
+tensorrt
+tensorflow_datasets
