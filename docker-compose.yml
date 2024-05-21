@@ -1,10 +1,9 @@
 version: "3"
 services:
   jupyter-tensorflow2-notebook2:
-    #build: .
-    image: jupyter/tensorflow-notebook
+    image: tensorflow/tensorflow:2.16.1-jupyter
     volumes:
-    - ./jupyter:/home/jovyan/work
+    - ./jupyter:/tf
     ports:
     - 8889:8888
     container_name:   jupyter-tensorflow2-notebook2
