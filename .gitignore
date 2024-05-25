@@ -2,3 +2,6 @@
 
 # exclude the folders where we place downloads
 jupyter/tensor.org/ml_basics_with_keras/downloads
+
+# exclude the trash folder
+jupyter/.Trash-0/
