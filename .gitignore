@@ -1,1 +1,4 @@
 .ipynb_checkpoints
+
+# exclude the folders where we place downloads
+jupyter/tensor.org/ml_basics_with_keras/downloads
