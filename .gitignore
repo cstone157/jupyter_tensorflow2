@@ -5,3 +5,6 @@ jupyter/tensor.org/ml_basics_with_keras/downloads
 
 # exclude the trash folder
 jupyter/.Trash-0/
+
+# exclude saved models
+*.keras
