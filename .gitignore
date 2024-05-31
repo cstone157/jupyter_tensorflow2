@@ -8,3 +8,6 @@ jupyter/.Trash-0/
 
 # exclude saved models
 *.keras
+
+# exclude checkpoints
+*.ckpt
