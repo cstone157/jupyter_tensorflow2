@@ -3,7 +3,11 @@
 # exclude the folders where we place downloads
 jupyter/tensor.org/ml_basics_with_keras/downloads
 jupyter/keras.io/computer_vision/downloads
+jupyter/keras.io/V3/computer_vision/downloads
 
+# V2
+jupyter/keras.io/V2/DUTS-TE.zip
+jupyter/keras.io/V2/ShiftViT/
 
 # exclude the trash folder
 jupyter/.Trash-0/
