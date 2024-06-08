@@ -7,3 +7,10 @@ services:
     ports:
     - 8889:8888
     container_name:   jupyter-tensorflow2-notebook2
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
