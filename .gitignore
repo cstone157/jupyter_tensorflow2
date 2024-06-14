@@ -9,6 +9,11 @@ jupyter/keras.io/V3/computer_vision/downloads
 jupyter/keras.io/V2/DUTS-TE.zip
 jupyter/keras.io/V2/DUTS-TE/
 jupyter/keras.io/V2/ShiftViT/
+jupyter/keras.io/V2/DUTS-TE.zip.1
+jupyter/keras.io/V2/data.zip
+jupyter/keras.io/V2/data/
+jupyter/keras.io/V2/retinanet/
+
 
 # exclude the trash folder
 jupyter/.Trash-0/
