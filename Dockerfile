@@ -1,1 +1,1 @@
-seaborn pandas tensorflow_datasets
+seaborn pandas tensorflow_datasets scikit-image
