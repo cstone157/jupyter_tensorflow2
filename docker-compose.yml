@@ -1,13 +1,13 @@
 version: "3"
 services:
-  jupyter-tensorflow2-notebook2:
+  jupyter-tensorflow2:
     image: tensorflow/tensorflow:2.15.0-gpu-jupyter
     volumes:
     - ./jupyter:/tf
     ports:
     - 8889:8888
     - 6007:6007
-    container_name:   jupyter-tensorflow2-notebook2
+    container_name:   jupyter-tensorflow2
     deploy:
       resources:
         reservations:
