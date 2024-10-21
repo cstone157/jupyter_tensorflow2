@@ -1,7 +1,9 @@
 version: "3"
 services:
   jupyter-tensorflow2:
-    image: tensorflow/tensorflow:2.15.0-gpu-jupyter
+    build: .
+    image: local/tensorflow-gpu
+    #image: . tensorflow/tensorflow:2.15.0-gpu-jupyter
     volumes:
     - ./jupyter:/tf
     ports:
