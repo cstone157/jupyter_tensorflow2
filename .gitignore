@@ -26,3 +26,6 @@ jupyter/.Trash-0/
 
 # exclude checkpoints
 *.ckpt
+
+## exclude datasets
+jupyter/books/Deep Learning with TF and Keras/datasets/*
