@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:2.15.0-gpu-jupyter
+#FROM tensorflow/tensorflow:2.15.0-gpu-jupyter
+FROM tensorflow/tensorflow:2.18.0-jupyter
 
 RUN apt-get update
 RUN apt-get install ffmpeg libsm6 libxext6  -y
