@@ -1,25 +1,27 @@
 .ipynb_checkpoints
 
-jupyter/books/Deep Learning with TF and Keras/data
-jupyter/books/Deep Learning with TF and Keras/logs
+## exclude datasets
+books/Deep Learning with TF and Keras/datasets/*
+books/Deep Learning with TF and Keras/data
+books/Deep Learning with TF and Keras/logs
 
 # exclude the folders where we place downloads
-jupyter/tensor.org/ml_basics_with_keras/downloads
-jupyter/keras.io/computer_vision/downloads
-jupyter/keras.io/V3/computer_vision/downloads
+tensor.org/ml_basics_with_keras/downloads
+keras.io/computer_vision/downloads
+keras.io/V3/computer_vision/downloads
 
 # V2
-jupyter/keras.io/V2/DUTS-TE.zip
-jupyter/keras.io/V2/DUTS-TE/
-jupyter/keras.io/V2/ShiftViT/
-jupyter/keras.io/V2/DUTS-TE.zip.1
-jupyter/keras.io/V2/data.zip
-jupyter/keras.io/V2/data/
-jupyter/keras.io/V2/retinanet/
+keras.io/V2/DUTS-TE.zip
+keras.io/V2/DUTS-TE/
+keras.io/V2/ShiftViT/
+keras.io/V2/DUTS-TE.zip.1
+keras.io/V2/data.zip
+keras.io/V2/data/
+keras.io/V2/retinanet/
 
 
 # exclude the trash folder
-jupyter/.Trash-0/
+.Trash-0/
 
 # exclude saved models
 *.keras
@@ -27,5 +29,3 @@ jupyter/.Trash-0/
 # exclude checkpoints
 *.ckpt
 
-## exclude datasets
-jupyter/books/Deep Learning with TF and Keras/datasets/*
