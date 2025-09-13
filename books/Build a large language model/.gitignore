@@ -1,1 +1,8 @@
 the-verdict.txt
+
+sms_spam_collection.zip
+sms_spam_collection/
+
+train.csv
+validation.csv
+test.csv
